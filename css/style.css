@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-	margin: auto;
+	margin: 0 auto;
 	width: 800px;
 	height: 50px;
 }
@@ -69,6 +69,37 @@ nav {
 	padding-top: 10px;
 }
 
+footer {
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+footer p {
+	color: white;
+	padding-bottom: 15px;
+}
+footer nav a {
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+}
+footer nav a:hover {
+	border-bottom: 1px solid white;
+}
+.graficlogo-small {
+	width: 75%;
+}
+.social img {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.social img:hover {
+	background: #707070;
+	border-radius: 50%;
+}
 
 @media screen and (max-width: 768px) {
 	.topnav a:not(:first-child) {
