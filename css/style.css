@@ -278,6 +278,22 @@ textarea {
 	margin-top: 40px;
 }
 
+/*services*/
+.services {
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+.services img {
+	max-width: 100%;
+}
+.services__container {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px 100px;
+}
+
 
 @media screen and (max-width: 768px) {
 	.topnav a:not(:first-child) {
@@ -323,6 +339,13 @@ textarea {
 	.form {
 		width: 70%;
 	}
+	.services {
+		width: 90%;
+	}
+	.services__container {
+		grid-template-columns: auto auto;
+		grid-gap: 20px 35px;
+	}
 }
 @media screen and (max-width: 560px) {
 	.advantages {
@@ -352,5 +375,8 @@ textarea {
 	}
 	.form {
 		width: 80%;
+	}
+	.services__container {
+		grid-template-columns: auto;
 	}
 }
